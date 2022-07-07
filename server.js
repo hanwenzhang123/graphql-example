@@ -30,3 +30,21 @@ async function startApolloServer() {
 }
 
 startApolloServer();
+
+
+// Without ApolloServer Server
+// const express = require('express');
+// const { graphqlHTTP } = require('express-graphql');
+
+// const app = express();
+
+// app.use(
+//   '/graphql',
+//   graphqlHTTP({
+//     schema: MyGraphQLSchema,
+//     graphiql: true,   //graphical interface
+//     //rootValue: MyRoot
+//   }),
+// );
+
+// app.listen(4000);
